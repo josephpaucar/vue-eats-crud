@@ -3,6 +3,9 @@ import { RouterView, useRoute } from 'vue-router'
 import AppNavbar from './components/AppNavbar.vue'
 import AppLayout from './layouts/AppLayout.vue'
 
+import { useFirebaseAuth } from 'vuefire'
+
+const auth = useFirebaseAuth()
 const route = useRoute()
 </script>
 
